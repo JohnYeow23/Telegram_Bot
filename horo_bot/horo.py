@@ -6,7 +6,6 @@ import requests
 
 load_dotenv()
 
-
 HORO_TOKEN = os.environ.get('HORO_TOKEN')
 bot = telebot.TeleBot(HORO_TOKEN)
 
