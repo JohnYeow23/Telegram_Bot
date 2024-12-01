@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2 = "*"
+pypdf = "*"
+docx2txt = "*"
+bs4 = "*"
+markdown = "*"
+langgraph = "*"
+docx = "*"
+langchain = "*"
+langchain-core = "*"
+langchain-community = "*"
+langchain-unstructured = "*"
+unstructured-client = "*"
+pdfminer = "*"
+unstructured = {extras = ["local-inference"], version = "*"}
+pandas = "*"
+langchain-anthropic = "*"
+langchain-openai = "*"
+python-telegram-bot = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
